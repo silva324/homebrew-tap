@@ -1,18 +1,31 @@
-# Silva324 Tap
+# Silva324 Homebrew Tap
 
-## How do I install these formulae?
+Official Homebrew tap for [DeckTap](https://github.com/silva324/DeckTap) and tools by [@silva324](https://github.com/silva324).
 
-`brew install silva324/tap/<formula>`
+## Installation
 
-Or `brew tap silva324/tap` and then `brew install <formula>`.
+### DeckTap
 
-Or, in a `brew bundle` `Brewfile`:
+Control PowerPoint and Keynote presentations from your phone with real-time speaker notes and a virtual laser pointer.
 
-```ruby
-tap "silva324/tap"
-brew "<formula>"
+```bash
+brew install --cask silva324/tap/decktap
+```
+
+Or add the tap first:
+
+```bash
+brew tap silva324/tap
+brew install --cask decktap
+```
+
+### Upgrading
+
+```bash
+brew upgrade --cask decktap
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [DeckTap Repository](https://github.com/silva324/DeckTap)
+- [Homebrew Documentation](https://docs.brew.sh)
