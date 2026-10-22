@@ -1,6 +1,6 @@
 cask "decktap" do
-  version "0.8.0"
-  sha256 "f9aa6b2a54dbd5868315ddba9839b230585d756cdf196eac4967079e314d2092"
+  version "0.10.1"
+  sha256 "cb05c1bc0e79f077c8ecdade20db0b9ba79d29800b61621088334ed3809b65a8"
 
   url "https://github.com/silva324/DeckTap/releases/download/v#{version}/DeckTap-v#{version}-macOS-Universal.dmg"
   name "DeckTap"
@@ -13,7 +13,7 @@ cask "decktap" do
   end
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :tahoe
 
   app "DeckTap.app"
 
