@@ -1,6 +1,6 @@
 cask "decktap" do
   version "0.8.0"
-  sha256 "77a5a17c31006eafdbd1b23de7d8eef90f0b5992807d32901dbd4e7f7b08c9bd"
+  sha256 "f9aa6b2a54dbd5868315ddba9839b230585d756cdf196eac4967079e314d2092"
 
   url "https://github.com/silva324/DeckTap/releases/download/v#{version}/DeckTap-v#{version}-macOS-Universal.dmg"
   name "DeckTap"
